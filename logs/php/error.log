@@ -1,0 +1,314 @@
+[26-Sep-2020 08:59:48 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 08:59:48 UTC] PHP Stack trace:
+[26-Sep-2020 08:59:48 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 08:59:48 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 08:59:48 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 08:59:48 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 08:59:48 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 08:59:48 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 08:59:48 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 08:59:48 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 08:59:48 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:01:05 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:01:05 UTC] PHP Stack trace:
+[26-Sep-2020 09:01:05 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:01:05 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:01:05 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:01:05 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:01:05 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:01:05 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:01:05 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:01:05 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:01:05 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:01:21 UTC] PHP Warning:  sprintf(): Too few arguments in /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[26-Sep-2020 09:01:21 UTC] PHP Stack trace:
+[26-Sep-2020 09:01:21 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:0
+[26-Sep-2020 09:01:21 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:10
+[26-Sep-2020 09:01:21 UTC] PHP   3. do_action() /home/george/Local Sites/testpress/app/public/wp-admin/admin.php:259
+[26-Sep-2020 09:01:21 UTC] PHP   4. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:01:21 UTC] PHP   5. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:01:21 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:287
+[26-Sep-2020 09:01:21 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:751
+[26-Sep-2020 09:01:21 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:2985
+[26-Sep-2020 09:01:21 UTC] PHP   9. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3379
+[26-Sep-2020 09:01:21 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3266
+[26-Sep-2020 09:01:21 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-upgrader.php:813
+[26-Sep-2020 09:01:21 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3646
+[26-Sep-2020 09:01:21 UTC] PHP  13. sprintf() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[26-Sep-2020 09:01:41 UTC] PHP Warning:  sprintf(): Too few arguments in /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[26-Sep-2020 09:01:41 UTC] PHP Stack trace:
+[26-Sep-2020 09:01:41 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:0
+[26-Sep-2020 09:01:41 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:10
+[26-Sep-2020 09:01:41 UTC] PHP   3. do_action() /home/george/Local Sites/testpress/app/public/wp-admin/admin.php:259
+[26-Sep-2020 09:01:41 UTC] PHP   4. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:01:41 UTC] PHP   5. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:01:41 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:287
+[26-Sep-2020 09:01:41 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:751
+[26-Sep-2020 09:01:41 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:2985
+[26-Sep-2020 09:01:41 UTC] PHP   9. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3379
+[26-Sep-2020 09:01:41 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3266
+[26-Sep-2020 09:01:41 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-upgrader.php:813
+[26-Sep-2020 09:01:41 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3646
+[26-Sep-2020 09:01:41 UTC] PHP  13. sprintf() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[26-Sep-2020 09:01:50 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:01:50 UTC] PHP Stack trace:
+[26-Sep-2020 09:01:50 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:01:50 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:01:50 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:01:50 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:01:50 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:01:50 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:01:50 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:01:50 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:01:50 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:01:55 UTC] PHP Warning:  sprintf(): Too few arguments in /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[26-Sep-2020 09:01:55 UTC] PHP Stack trace:
+[26-Sep-2020 09:01:55 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:0
+[26-Sep-2020 09:01:55 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:10
+[26-Sep-2020 09:01:55 UTC] PHP   3. do_action() /home/george/Local Sites/testpress/app/public/wp-admin/admin.php:259
+[26-Sep-2020 09:01:55 UTC] PHP   4. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:01:55 UTC] PHP   5. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:01:55 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:287
+[26-Sep-2020 09:01:55 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:751
+[26-Sep-2020 09:01:55 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:2985
+[26-Sep-2020 09:01:55 UTC] PHP   9. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3379
+[26-Sep-2020 09:01:55 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3266
+[26-Sep-2020 09:01:55 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-upgrader.php:813
+[26-Sep-2020 09:01:55 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3646
+[26-Sep-2020 09:01:55 UTC] PHP  13. sprintf() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[26-Sep-2020 09:02:01 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:02:01 UTC] PHP Stack trace:
+[26-Sep-2020 09:02:01 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:02:01 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:02:01 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:02:01 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:02:01 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:02:01 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:02:01 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:02:01 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:02:01 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:02:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:02:06 UTC] PHP Stack trace:
+[26-Sep-2020 09:02:06 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:02:06 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:02:06 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:02:06 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:02:06 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:02:06 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:02:06 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:02:06 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:02:06 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:02:12 UTC] PHP Warning:  dir(/home/george/Local Sites/testpress/app/public/wp-content/upgrade/ti-woocommerce-wishlist.1.21.7-OWx5EV/ti-woocommerce-wishlist/public/widget/): failed to open dir: No such file or directory in /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-filesystem-direct.php on line 613
+[26-Sep-2020 09:02:12 UTC] PHP Stack trace:
+[26-Sep-2020 09:02:12 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:0
+[26-Sep-2020 09:02:12 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:10
+[26-Sep-2020 09:02:12 UTC] PHP   3. do_action() /home/george/Local Sites/testpress/app/public/wp-admin/admin.php:259
+[26-Sep-2020 09:02:12 UTC] PHP   4. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:02:12 UTC] PHP   5. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:02:12 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:287
+[26-Sep-2020 09:02:12 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:751
+[26-Sep-2020 09:02:12 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:2985
+[26-Sep-2020 09:02:12 UTC] PHP   9. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3379
+[26-Sep-2020 09:02:12 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3266
+[26-Sep-2020 09:02:12 UTC] PHP  11. TGMPA_Bulk_Installer->install_package() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-upgrader.php:797
+[26-Sep-2020 09:02:12 UTC] PHP  12. WP_Filesystem_Direct->delete() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-upgrader.php:605
+[26-Sep-2020 09:02:12 UTC] PHP  13. WP_Filesystem_Direct->delete() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-filesystem-direct.php:384
+[26-Sep-2020 09:02:12 UTC] PHP  14. WP_Filesystem_Direct->delete() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-filesystem-direct.php:384
+[26-Sep-2020 09:02:12 UTC] PHP  15. WP_Filesystem_Direct->delete() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-filesystem-direct.php:384
+[26-Sep-2020 09:02:12 UTC] PHP  16. WP_Filesystem_Direct->dirlist() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-filesystem-direct.php:378
+[26-Sep-2020 09:02:12 UTC] PHP  17. dir() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-filesystem-direct.php:613
+[26-Sep-2020 09:02:12 UTC] PHP Warning:  sprintf(): Too few arguments in /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[26-Sep-2020 09:02:12 UTC] PHP Stack trace:
+[26-Sep-2020 09:02:12 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:0
+[26-Sep-2020 09:02:12 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:10
+[26-Sep-2020 09:02:12 UTC] PHP   3. do_action() /home/george/Local Sites/testpress/app/public/wp-admin/admin.php:259
+[26-Sep-2020 09:02:12 UTC] PHP   4. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:02:12 UTC] PHP   5. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:02:12 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:287
+[26-Sep-2020 09:02:12 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:751
+[26-Sep-2020 09:02:12 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:2985
+[26-Sep-2020 09:02:12 UTC] PHP   9. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3379
+[26-Sep-2020 09:02:12 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3266
+[26-Sep-2020 09:02:12 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-upgrader.php:813
+[26-Sep-2020 09:02:12 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3646
+[26-Sep-2020 09:02:12 UTC] PHP  13. sprintf() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[26-Sep-2020 09:02:19 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:02:19 UTC] PHP Stack trace:
+[26-Sep-2020 09:02:19 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:02:19 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:02:19 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:02:19 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:02:19 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:02:19 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:02:19 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:02:19 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:02:19 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:02:19 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:02:19 UTC] PHP Stack trace:
+[26-Sep-2020 09:02:19 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:02:19 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:02:19 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:02:19 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:02:19 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:02:19 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:02:19 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:02:19 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:02:19 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:02:24 UTC] PHP Warning:  sprintf(): Too few arguments in /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[26-Sep-2020 09:02:24 UTC] PHP Stack trace:
+[26-Sep-2020 09:02:24 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:0
+[26-Sep-2020 09:02:24 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-admin/plugins.php:10
+[26-Sep-2020 09:02:24 UTC] PHP   3. do_action() /home/george/Local Sites/testpress/app/public/wp-admin/admin.php:259
+[26-Sep-2020 09:02:24 UTC] PHP   4. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:02:24 UTC] PHP   5. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:02:24 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:287
+[26-Sep-2020 09:02:24 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:751
+[26-Sep-2020 09:02:24 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:2985
+[26-Sep-2020 09:02:24 UTC] PHP   9. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3379
+[26-Sep-2020 09:02:24 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3266
+[26-Sep-2020 09:02:24 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-wp-upgrader.php:813
+[26-Sep-2020 09:02:24 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php:3646
+[26-Sep-2020 09:02:24 UTC] PHP  13. sprintf() /home/george/Local Sites/testpress/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[26-Sep-2020 09:03:05 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:03:05 UTC] PHP Stack trace:
+[26-Sep-2020 09:03:05 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:03:05 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:03:05 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:03:05 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:03:05 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:03:05 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:03:05 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:03:05 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:03:05 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:04:13 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:04:13 UTC] PHP Stack trace:
+[26-Sep-2020 09:04:13 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:04:13 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:04:13 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:04:13 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:04:13 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:04:13 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:04:13 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:04:13 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:04:13 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:04:58 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:04:58 UTC] PHP Stack trace:
+[26-Sep-2020 09:04:58 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:04:58 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:04:58 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:04:58 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:04:58 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:04:58 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:04:58 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:04:58 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:04:58 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:06:03 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:06:03 UTC] PHP Stack trace:
+[26-Sep-2020 09:06:03 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:06:03 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:06:03 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:06:03 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:06:03 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:06:03 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:06:03 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:06:03 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:06:03 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:06:24 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:06:24 UTC] PHP Stack trace:
+[26-Sep-2020 09:06:24 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:06:24 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:06:24 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:06:24 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:06:24 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:06:24 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:06:24 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:06:24 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:06:24 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:07:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:07:06 UTC] PHP Stack trace:
+[26-Sep-2020 09:07:06 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:07:06 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:07:06 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:07:06 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:07:06 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:07:06 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:07:06 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:07:06 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:07:06 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:07:26 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:07:26 UTC] PHP Stack trace:
+[26-Sep-2020 09:07:26 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:07:26 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:07:26 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:07:26 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:07:26 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:07:26 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:07:26 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:07:26 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:07:26 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:10:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:10:20 UTC] PHP Stack trace:
+[26-Sep-2020 09:10:20 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:10:20 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:10:20 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:10:20 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:10:20 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:10:20 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:10:20 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:10:20 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:10:20 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:11:04 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:11:04 UTC] PHP Stack trace:
+[26-Sep-2020 09:11:04 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:11:04 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:11:04 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:11:04 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:11:04 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:11:04 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:11:04 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:11:04 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:11:04 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:12:16 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:12:16 UTC] PHP Stack trace:
+[26-Sep-2020 09:12:16 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:12:16 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:12:16 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:12:16 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:12:16 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:12:16 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:12:16 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:12:16 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:12:16 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:13:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:13:20 UTC] PHP Stack trace:
+[26-Sep-2020 09:13:20 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:13:20 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:13:20 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:13:20 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:13:20 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:13:20 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:13:20 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:13:20 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:13:20 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:14:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:14:20 UTC] PHP Stack trace:
+[26-Sep-2020 09:14:20 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:14:20 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:14:20 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:14:20 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:14:20 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:14:20 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:14:20 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:14:20 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:14:20 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874
+[26-Sep-2020 09:14:56 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php on line 2874
+[26-Sep-2020 09:14:56 UTC] PHP Stack trace:
+[26-Sep-2020 09:14:56 UTC] PHP   1. {main}() /home/george/Local Sites/testpress/app/public/wp-cron.php:0
+[26-Sep-2020 09:14:56 UTC] PHP   2. require_once() /home/george/Local Sites/testpress/app/public/wp-cron.php:44
+[26-Sep-2020 09:14:56 UTC] PHP   3. require_once() /home/george/Local Sites/testpress/app/public/wp-load.php:37
+[26-Sep-2020 09:14:56 UTC] PHP   4. require_once() /home/george/Local Sites/testpress/app/public/wp-config.php:77
+[26-Sep-2020 09:14:56 UTC] PHP   5. do_action() /home/george/Local Sites/testpress/app/public/wp-settings.php:546
+[26-Sep-2020 09:14:56 UTC] PHP   6. WP_Hook->do_action() /home/george/Local Sites/testpress/app/public/wp-includes/plugin.php:478
+[26-Sep-2020 09:14:56 UTC] PHP   7. WP_Hook->apply_filters() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:311
+[26-Sep-2020 09:14:56 UTC] PHP   8. Woostify_Sites->woostify_sites_set_cookie() /home/george/Local Sites/testpress/app/public/wp-includes/class-wp-hook.php:285
+[26-Sep-2020 09:14:56 UTC] PHP   9. setcookie() /home/george/Local Sites/testpress/app/public/wp-content/plugins/woostify-sites-library/class-woostify-sites.php:2874

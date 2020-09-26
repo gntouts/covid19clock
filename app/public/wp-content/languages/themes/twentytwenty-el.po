@@ -1,0 +1,517 @@
+# Translation of Themes - Twenty Twenty in Greek
+# This file is distributed under the same license as the Themes - Twenty Twenty package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-29 09:40:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Themes - Twenty Twenty\n"
+
+#: classes/class-twentytwenty-customize.php:246
+msgid "Show author bio"
+msgstr "Εμφάνιση πληροφοριών συντάκτη"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "Το νέο UMoMA ανοίγει τις πόρτες του"
+
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Προβολή αρχείου <span aria-hidden=\"true\">\t</span>"
+
+#: inc/template-tags.php:396
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "Σε"
+
+#: classes/class-twentytwenty-customize.php:126
+msgid "Custom"
+msgstr "Προσαρμοσμένη"
+
+#: classes/class-twentytwenty-customize.php:125
+msgid "Default"
+msgstr "Προεπιλεγμένο"
+
+#: classes/class-twentytwenty-customize.php:352
+msgid "Overlay Background Color"
+msgstr "Χρώμα Φόντου Επικάλυψης"
+
+#: classes/class-twentytwenty-customize.php:123
+msgid "Primary Color"
+msgstr "Κύριο χρώμα"
+
+#: inc/starter-content.php:73 inc/starter-content.php:88
+#: inc/starter-content.php:105 inc/starter-content.php:120
+msgid "Read More"
+msgstr "Περισσότερα"
+
+#: inc/starter-content.php:85 inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "1 Οκτωβρίου - 1 Δεκεμβρίου"
+
+#: inc/starter-content.php:70 inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "1 Αυγούστου -- 1 Δεκεμβρίου"
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "Από το Signac στο Matisse"
+
+#: classes/class-twentytwenty-customize.php:395
+msgid "Overlay Opacity"
+msgstr "Διαφάνεια Επικάλυψης"
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "Γίνετε Μέλος και Αποκτήστε Αποκλειστικές Προσφορές!"
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "Το νέο UMoMA ανοίγει τις πόρτες του"
+
+#: classes/class-twentytwenty-customize.php:183
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Εφαρμόστε ένα χρώμα της επιλογής σας για συνδέσμους, κουμπιά, επιλεγμένες εικόνες."
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "Γίνετε μέλος"
+
+#: inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "Τα μέλη αποκτούν πρόσβαση σε αποκλειστικά εκθέματα και πωλήσεις. Τα μέλη μας κοστίζουν $99,99 και χρεώνονται ετησίως."
+
+#: classes/class-twentytwenty-customize.php:374
+msgid "Overlay Text Color"
+msgstr "Χρώμα κειμένου επικάλυψης"
+
+#: classes/class-twentytwenty-customize.php:283
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "Ρυθμίσεις για το πρότυπο σελίδας \"Πρότυπο εξωφύλλου\". Προσθέστε μια επιλεγμένη εικόνα για να τη χρησιμοποιήσετε ως φόντο."
+
+#: inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "Η ζωή που μου αξίζει"
+
+#: classes/class-twentytwenty-customize.php:353
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "Το χρώμα που χρησιμοποιείται για την επικάλυψη. Εξ ορισμού είναι ίδιο με το χρώμα έμφασης."
+
+#: classes/class-twentytwenty-customize.php:375
+msgid "The color used for the text in the overlay."
+msgstr "Το χρώμα που χρησιμοποιείται για το κείμενο στην επικάλυψη."
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "Ο κορυφαίος προορισμός για τη σύγχρονη τέχνη στη Βόρεια Σουηδία. Ανοιχτό από 10 Π.Μ. έως 6 Μ.Μ. κάθε μέρα κατά τη διάρκεια των καλοκαιρινών μηνών."
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Θέατρο επιχειρήσεων"
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "Οι εκθέσεις πραγματοποιούνται από τον UMoMA σε συνεργασία με καλλιτέχνες και μουσεία σε όλο τον κόσμο και συχνά προσελκύουν τη διεθνή προσοχή. Ο UMoMA έχει λάβει ειδικό έπαινο από το Ευρωπαϊκό Μουσείο της χρονιάς, και ήταν μεταξύ των κορυφαίων υποψηφίων για το Σουηδικό Μουσείο της χρονιάς, καθώς και για το Βραβείο Μουσείου του Συμβουλίου της Ευρώπης."
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "Με επτά ορόφους εντυπωσιακής αρχιτεκτονικής, το UMoMA παρουσιάζει εκθέσεις της διεθνούς σύγχρονης τέχνης, μερικές φορές μαζί με ιστορικές ρετροσπεκτίβες τέχνης. Τα υπαρξιακά, πολιτικά και φιλοσοφικά ζητήματα είναι εγγενή στο πρόγραμμά μας. Ως επισκέπτης σας προσκαλούμε σε ξεναγήσεις Καλλιτεχνών, διαλέξεις, προβολές ταινιών και άλλες εκδηλώσεις με δωρεάν είσοδο"
+
+#: inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "Έργα και Ημέρες"
+
+#: inc/starter-content.php:130
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+
+#: searchform.php:24 template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr "Αναζήτηση για:"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "Επάνω %s"
+
+#. translators: Copyright date format, see https://www.php.net/date
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 η σελίδα δεν βρέθηκε"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "Στην κορυφή %s"
+
+#: index.php:101
+msgid "search again"
+msgstr "αναζήτηση ξανά"
+
+#. translators: %s: Number of search results.
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Βρέθηκε %s αποτέλεσμα για την αναζήτηση σας."
+msgstr[1] "Βρέθηκαν %s αποτελέσματα για την αναζήτηση σας."
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:69
+msgid "%1$s at %2$s"
+msgstr "%1$s την %2$s"
+
+#: classes/class-twentytwenty-walker-comment.php:77
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: classes/class-twentytwenty-walker-comment.php:92
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας περιμένει έγκριση."
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Σχολίασε"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Μία απάντηση στο &ldquo;%s&rdquo;"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s απάντηση στο &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s απαντησεις στο &ldquo;%2$s&rdquo;"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι απενεργοποιημένα."
+
+#: inc/starter-content.php:177 inc/starter-content.php:187 functions.php:489
+msgid "Primary"
+msgstr "Κύριο"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Μενού Συνδέσμων Κοινωνικών Δικτύων"
+
+#: functions.php:261
+msgid "Footer Menu"
+msgstr "Μενού υποσέλιδου"
+
+#: template-parts/content-cover.php:138 template-parts/content.php:48
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: template-parts/content-cover.php:138 template-parts/content.php:48
+msgid "Page"
+msgstr "Σελίδας"
+
+#: functions.php:494
+msgid "Secondary"
+msgstr "Δευτερεύον"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
+msgid "#%d (no title)"
+msgstr "#%d (χωρίς τίτλο)"
+
+#: functions.php:484
+msgid "Accent Color"
+msgstr "Χρώμα Έμφασης"
+
+#: functions.php:512
+msgid "Background Color"
+msgstr "Χρώμα Φόντου"
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:357 template-parts/entry-author-bio.php:20
+msgid "By %s"
+msgstr "Από τον/την %s"
+
+#: inc/template-tags.php:392 template-parts/entry-header.php:36
+#: template-parts/content-cover.php:70
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: template-parts/modal-search.php:26
+msgid "Close search"
+msgstr "Κλείσιμο αναζήτησης"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Περισσότερα"
+
+#: classes/class-twentytwenty-customize.php:269
+msgid "Full text"
+msgstr "Πλήρες κείμενο"
+
+#: header.php:88
+msgid "Horizontal"
+msgstr "Οριζόντια"
+
+#: header.php:76 header.php:137
+msgid "Menu"
+msgstr "Μενού"
+
+#: functions.php:539
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: functions.php:545
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Μεγαλύτερο"
+
+#: functions.php:533
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Κανονικά"
+
+#: functions.php:527
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Μικρό"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Νεότερα Σχόλια"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Παλαιότερα σχόλια"
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Η σελίδα δεν βρέθηκε"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Άρθρο"
+
+#: inc/template-tags.php:350
+msgid "Post author"
+msgstr "Συντάκτης άρθρου"
+
+#: inc/template-tags.php:374
+msgid "Post date"
+msgstr "Ημ. δημοσίευσης"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Με τη δύναμη του WordPress"
+
+#: classes/class-twentytwenty-customize.php:81
+msgid "Retina logo"
+msgstr "Λογότυπο Retina"
+
+#: classes/class-twentytwenty-customize.php:82
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Προσαρμόζει το λογότυπο στο μισό του αρχικού του μεγέθους, καθιστώντας το ευκρινές σε οθόνες υψηλής ανάλυσης."
+
+#: header.php:53 header.php:157
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: index.php:32
+msgid "Search:"
+msgstr "Αναζήτηση:"
+
+#: functions.php:540
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:546
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:534
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:528
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "S"
+
+#: classes/class-twentytwenty-customize.php:270
+msgid "Summary"
+msgstr "Περίληψη"
+
+#: inc/template-tags.php:410
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: classes/class-twentytwenty-customize.php:202
+msgid "Theme Options"
+msgstr "Ρυθμίσεις θέματος"
+
+#: searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Αναζήτηση &hellip;"
+
+#: classes/class-twentytwenty-walker-comment.php:56
+msgid "says:"
+msgstr "λέει:"
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Κλείσιμο Μενού"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Σύνδεσμοι Social media"
+
+#: functions.php:377
+msgid "Footer #2"
+msgstr "Υποσέλιδο #2"
+
+#: functions.php:365
+msgid "Footer #1"
+msgstr "Υποσέλιδο #1"
+
+#: functions.php:340
+msgid "Skip to the content"
+msgstr "Μετάβαση στο περιεχόμενο"
+
+#: functions.php:262
+msgid "Social Menu"
+msgstr "Μενού κοινωνικών δικτύων"
+
+#: classes/class-twentytwenty-customize.php:225
+msgid "Show search in header"
+msgstr "Προβολή αναζήτησης στην κεφαλίδα"
+
+#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:558
+msgid "Show sub menu"
+msgstr "Εμφάνιση του υπό μενού"
+
+#: functions.php:260
+msgid "Mobile Menu"
+msgstr "Μενού για κινητά"
+
+#: template-parts/pagination.php:21
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "Πιο πρόσφατα <span class=\"nav-short\">Άρθρα</span>"
+
+#: template-parts/modal-menu.php:73
+msgid "Mobile"
+msgstr "Κινητό"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "Κύλιση προς τα κάτω"
+
+#: classes/class-twentytwenty-customize.php:396
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Βεβαιωθείτε ότι η αντίθεση είναι αρκετά υψηλή ώστε το κείμενο να είναι ευανάγνωστο."
+
+#: template-parts/pagination.php:25
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "Παλαιότερα <span class=\"nav-short\">Άρθρα</span>"
+
+#: template-parts/modal-menu.php:48
+msgid "Expanded"
+msgstr "Αναπτυγμένο"
+
+#: classes/class-twentytwenty-walker-comment.php:127
+msgid "By Post Author"
+msgstr "Από τον συντάκτη του άρθρου"
+
+#: classes/class-twentytwenty-customize.php:305
+msgid "Fixed Background Image"
+msgstr "Σταθερή εικόνα φόντου"
+
+#: classes/class-twentytwenty-customize.php:101
+msgid "Header &amp; Footer Background Color"
+msgstr "Χρώμα φόντου κεφαλίδας &amp; υποσέλιδου"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "Η σελίδα που αναζητήσατε δεν βρέθηκε. Μπορεί να έχει αφαιρεθεί, μετονομαστεί ή να μην έχει δημιουργηθεί."
+
+#: functions.php:367
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Οι μικροεφαρμογές σε αυτή τη περιοχή θα προβάλλονται στη πρώτη στήλη του υποσέλιδου."
+
+#: functions.php:379
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Οι μικροεφαρμογές σε αυτή τη περιοχή θα προβάλλονται στη δεύτερη στήλη του υποσέλιδου."
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Δεν μπορέσαμε να βρούμε αποτελέσματα για την αναζήτησή σας. Μπορείτε να κάνετε μια άλλη προσπάθεια μέσω της παρακάτω φόρμας αναζήτησης."
+
+#: inc/template-tags.php:448
+msgid "Sticky post"
+msgstr "Άρθρο Καρφιτσωμένο στην πρώτη σελίδα"
+
+#: functions.php:259
+msgid "Desktop Expanded Menu"
+msgstr "Αναπτυγμένο μενού για Desktop υπολογιστή"
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:281
+msgid "Cover Template"
+msgstr "Πρότυπο εξωφύλλου"
+
+#: classes/class-twentytwenty-customize.php:306
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "Δημιουργεί ένα εφέ parallax όταν ο επισκέπτης κάνει κύλιση."
+
+#: functions.php:258
+msgid "Desktop Horizontal Menu"
+msgstr "Οριζόντιο μενού για σταθερούς υπολογιστές"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:207
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Επεξεργασία του<span class=\"screen-reader-text\">%s</span>"
+
+#: classes/class-twentytwenty-customize.php:267
+msgid "On archive pages, posts show:"
+msgstr "Στις ιστοσελίδες αρχείου, τα άρθρα εμφανίζουν:"
+
+#: functions.php:499
+msgid "Subtle Background"
+msgstr "Διακριτικό φόντο"
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "Επέκταση κοινωνικών συνδέσμων"
+
+#. Author URI of the theme
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
