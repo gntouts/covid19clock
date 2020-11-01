@@ -1,11 +1,32 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-from time import sleep
+from time import sleep, time
+from github import Github
 
 URL = 'https://covid19.gov.gr/covid-map/'
 STATUSPATH = 'data.json'
 ZIPPATH = 'zip.json'
+G = Github("533ada923230d8a71bfc07c436a78b9f44fed216")
+
+
+def updateGitData(fileName, content, gitId):
+    repo = False
+    msg = 'autoupdater'
+    c = time()
+    c = float(c)
+    c = int(c)
+    c = str(c)
+    msg += c
+    for each in gitId.get_user().get_repos():
+        if each.name == 'covid19clock':
+            repo = each
+    if repo:
+        oldFile = repo.get_contents(fileName)
+        fileSHA = oldFile.sha
+        repo.update_file(path=fileName, message=msg,
+                         content=content, sha=fileSHA, branch='master')
+        print('updated: ', fileName)
 
 
 def getScriptSrc(url):
@@ -57,21 +78,17 @@ def main():
             else:
                 this['full_level'] = 'Επίπεδο Α. Επιτήρησης'
                 this['level'] = 1
-        with open(STATUSPATH, 'w', encoding='utf-8') as jfile:
-            json.dump(forJson, jfile)
-
-        with open(STATUSPATH, 'r', encoding='utf-8') as jfile:
-            myData = json.load(jfile)
+        forJsonString = json.dumps(forJson)
+        updateGitData('data.json', forJsonString, G)
 
         zip = {}
-        for each in myData:
-            this = myData[each]
+        for each in forJson:
+            this = forJson[each]
             codes = this['zip']
             for every in codes:
                 zip[every] = each
-
-        with open(ZIPPATH, 'w', encoding='utf-8') as jfile:
-            json.dump(zip, jfile)
+        zipString = json.dumps(zip)
+        updateGitData('zip.json', zipString, G)
 
 
 def zipToCounty(zip, zipDict):
