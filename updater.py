@@ -3,11 +3,13 @@ from bs4 import BeautifulSoup
 import json
 from time import sleep, time
 from github import Github
+import os
 
 URL = 'https://covid19.gov.gr/covid-map/'
+GITHUB_ACCESS_TOKEN = os.environ['GITHUB_ACCESS_TOKEN']
 STATUSPATH = 'data.json'
 ZIPPATH = 'zip.json'
-G = Github("533ada923230d8a71bfc07c436a78b9f44fed216")
+G = Github(GITHUB_ACCESS_TOKEN)
 
 
 def updateGitData(fileName, content, gitId):
