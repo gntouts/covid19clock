@@ -60,13 +60,13 @@ async def read_county(county_name):
 
 
 @app.get("/v1/zip")
-async def list_counties():
+async def list_zipcodes():
     myData = loadJSON(ZIPPATH)
     return list(myData.keys())
 
 
 @app.get("/v1/zip/{zip_code}")
-async def read_county(zip_code):
+async def read_zipcode(zip_code):
     zipData = loadJSON(ZIPPATH)
     myData = loadJSON(STATUSPATH)
     res = zipToCounty(zip_code, zipData)
