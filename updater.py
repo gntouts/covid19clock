@@ -79,7 +79,7 @@ def main():
                 this['full_level'] = 'Επίπεδο Α. Επιτήρησης'
                 this['level'] = 1
         forJsonString = json.dumps(forJson)
-        updateGitData('data.json', forJsonString, G)
+        updateGitData(STATUSPATH, forJsonString, G)
 
         zip = {}
         for each in forJson:
@@ -88,7 +88,7 @@ def main():
             for every in codes:
                 zip[every] = each
         zipString = json.dumps(zip)
-        updateGitData('zip.json', zipString, G)
+        updateGitData(ZIPPATH, zipString, G)
 
 
 def zipToCounty(zip, zipDict):
@@ -104,14 +104,6 @@ def zipToCounty(zip, zipDict):
         return zipDict[tk2]
     else:
         return False
-
-
-def main2():
-    with open(ZIPPATH, 'r', encoding='utf-8') as jfile:
-        zip = json.load(jfile)
-
-    nomos = zipToCounty('26223', zip)
-    print(nomos)
 
 
 if __name__ == "__main__":
