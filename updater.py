@@ -6,7 +6,7 @@ from github import Github
 import os
 
 URL = 'https://covid19.gov.gr/covid-map/'
-GITHUB_ACCESS_TOKEN = os.environ['GITHUB_ACCESS_TOKEN']
+GITHUB_ACCESS_TOKEN = os.environ['GIT_ACCESS_TOKEN']
 STATUSPATH = 'data.json'
 ZIPPATH = 'zip.json'
 G = Github(GITHUB_ACCESS_TOKEN)
