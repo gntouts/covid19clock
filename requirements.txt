@@ -18,3 +18,4 @@ toml==0.10.2
 urllib3==1.25.11
 uvicorn==0.12.2
 wrapt==1.12.1
+PyGithub==1.53
