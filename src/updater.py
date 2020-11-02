@@ -7,12 +7,9 @@ import os
 
 URL = 'https://covid19.gov.gr/covid-map/'
 GITHUB_ACCESS_TOKEN = os.environ['GIT_ACCESS_TOKEN']
+GIT_STATUS_PATH = os.environ['GIT_STATUS_PATH']
+GIT_ZIP_PATH = os.environ['GIT_ZIP_PATH']
 
-thispath = os.getcwd().split('src')[0]
-thispath += 'data/'
-
-STATUSPATH = thispath+'data.json'
-ZIPPATH = thispath+'zip.json'
 G = Github(GITHUB_ACCESS_TOKEN)
 
 
@@ -30,7 +27,7 @@ def updateGitData(fileName, content, gitId):
     if repo:
         oldFile = repo.get_contents(fileName)
         fileSHA = oldFile.sha
-        repo.update_file(path=fileName, message=msg,
+        repo.update_file(path=fileName.replace('/app', ''), message=msg,
                          content=content, sha=fileSHA, branch='master')
         print('updated: ', fileName)
 
@@ -85,7 +82,7 @@ def main():
                 this['full_level'] = 'Επίπεδο Α. Επιτήρησης'
                 this['level'] = 1
         forJsonString = json.dumps(forJson)
-        updateGitData(STATUSPATH, forJsonString, G)
+        updateGitData(GIT_STATUS_PATH, forJsonString, G)
 
         zip = {}
         for each in forJson:
@@ -94,7 +91,7 @@ def main():
             for every in codes:
                 zip[every] = each
         zipString = json.dumps(zip)
-        updateGitData(ZIPPATH, zipString, G)
+        updateGitData(GIT_ZIP_PATH, zipString, G)
 
 
 def zipToCounty(zip, zipDict):
