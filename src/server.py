@@ -1,6 +1,13 @@
 from fastapi import FastAPI
 import json
 from fastapi.middleware.cors import CORSMiddleware
+import os
+
+thispath = os.getcwd().split('src')[0]
+thispath += 'data/'
+
+STATUSPATH = thispath+'data.json'
+ZIPPATH = thispath+'zip.json'
 
 
 def loadJSON(myPath):
@@ -27,9 +34,6 @@ def zipToCounty(zip, zipDict):
 origins = [
     "*",
 ]
-
-STATUSPATH = 'data.json'
-ZIPPATH = 'zip.json'
 
 app = FastAPI()
 
