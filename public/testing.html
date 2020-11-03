@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div>
+    <div id='top-navbar'>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Covid-19 Greece</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -34,6 +34,7 @@
             </div>
         </nav>
     </div>
+
     <div class="container-fluid">
         <div class="text-center ">
 
@@ -50,7 +51,7 @@
                         <p>Για να δείτε το επίπεδο μέτρων στην περιοχή σας, θα χρειαστεί να παραχωρήσετε δικαιώματα
                             χρήσης
                             της τοποθεσίας σας.</p>
-                        <button id="loc-button" type="button" class="btn btn-primary">Αναζήτηση</button>
+                        <button id="desk-location-button" type="button" class="btn btn-primary">Αναζήτηση</button>
                     </div>
                 </div>
 
@@ -66,7 +67,7 @@
                         <input id="zip" name="zip" placeholder="ΤΚ" type="text" pattern="[0-9]*">
 
 
-                        <button id="zip-button" type="button" class="btn btn-primary">Αναζήτηση</button>
+                        <button id="desk-zip-button" type="button" class="btn btn-primary">Αναζήτηση</button>
                     </div>
                 </div>
 
@@ -81,20 +82,109 @@
                         <h5 class="card-title">Αναζήτηση με βάση την Περιφερειακή Ενότητα</h5>
                         <p>Για να δείτε το επίπεδο μέτρων στην Περιφερειακή Ενότητα που σας ενδιαφέρει, επιλέξτε την
                             στην λίστα. </p>
-                        <input id="zip" name="zip" placeholder="ΤΚ" type="text" pattern="[0-9]*">
+                        <input list="desk-counties" name="desk-county" id="desk-county">
+                        <datalist id="desk-counties">
+
+                        </datalist>
 
 
-                        <button id="zip-button" type="button" class="btn btn-primary">Αναζήτηση</button>
+                        <button id="desk-county-button" type="button" class="btn btn-primary">Αναζήτηση</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="ui.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+    <div id="mob-view" class="container-fluid">
+        <div class="row">
+            <div class="col-sm text-center">
+
+                <div class="accordion" id="modeSelectionAccordion">
+
+                    <div class="card mob-togglr">
+                        <h5 class="btn btn-outline-primary collapsed" type="button" id="headingOne"
+                            data-toggle="collapse" data-target="#collapseGeolocation" aria-expanded="true"
+                            aria-controls="collapseGeolocation" aria-expanded="false"
+                            aria-controls="collapseGeolocation">
+                            Αναζήτηση με βάση την τρέχουσα τοποθεσία σας
+                        </h5>
+                        <div id="collapseGeolocation" class="collapse" aria-labelledby="headingGeolocation"
+                            data-parent="#modeSelectionAccordion">
+                            <div class="card card-body">
+                                <p>Για να δείτε το επίπεδο μέτρων στην περιοχή σας, θα χρειαστεί να παραχωρήσετε
+                                    δικαιώματα
+                                    χρήσης
+                                    της τοποθεσίας σας.</p>
+                                <button id="mob-location-button" type="button"
+                                    class="btn btn-primary">Αναζήτηση</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="card mob-togglr">
+                        <h5 class="btn btn-outline-primary collapsed" type="button" id="headingZipCode"
+                            data-toggle="collapse" data-target="#collapseZipCode" aria-expanded="true"
+                            aria-controls="collapseZipCode" aria-expanded="false" aria-controls="collapseZipCode">
+                            Αναζήτηση με βάση τον Ταχυδρομικό Κώδικα
+                        </h5>
+                        <div id="collapseZipCode" class="collapse" aria-labelledby="headingZipCode"
+                            data-parent="#modeSelectionAccordion">
+                            <div class="card card-body">
+
+                                <p>Για να δείτε το επίπεδο μέτρων στην περιοχή που σας ενδιαφέρει, εισάγετε τον
+                                    Ταχυδρομικό της
+                                    Κώδικα.</p>
+                                <input id="zip" class="mob-input" name="zip" placeholder="ΤΚ" type="text"
+                                    pattern="[0-9]*">
+
+
+                                <button id="mob-zip-button" type="button" class="btn btn-primary">Αναζήτηση</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="card mob-togglr">
+                        <h5 class="btn btn-outline-primary collapsed" type="button" id="headingCounty"
+                            data-toggle="collapse" data-target="#collapseCounty" aria-expanded="true"
+                            aria-controls="collapseCounty" aria-expanded="false" aria-controls="collapseCounty">
+                            Αναζήτηση με βάση την Περιφερειακή Ενότητα
+                        </h5>
+                        <div id="collapseCounty" class="collapse" aria-labelledby="headingCounty"
+                            data-parent="#modeSelectionAccordion">
+                            <div class="card card-body">
+                                <h5 class="card-title"></h5>
+                                <p>Για να δείτε το επίπεδο μέτρων στην Περιφερειακή Ενότητα που σας ενδιαφέρει, επιλέξτε
+                                    την
+                                    στην λίστα. </p>
+                                <input class="mob-input" list="desk-counties" name="desk-county" id="desk-county">
+                                <datalist id="desk-counties">
+
+                                </datalist>
+
+
+                                <button id="mob-county-button" type="button" class="btn btn-primary">Αναζήτηση</button>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <script src="ui.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

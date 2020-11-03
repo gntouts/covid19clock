@@ -1,4 +1,3 @@
-
 var options = {
     enableHighAccuracy: true,
     timeout: 10000,
