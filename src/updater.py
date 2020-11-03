@@ -3,11 +3,14 @@ from bs4 import BeautifulSoup
 import json
 from time import sleep, time
 from github import Github
+import os
 
 URL = 'https://covid19.gov.gr/covid-map/'
-STATUSPATH = 'data.json'
-ZIPPATH = 'zip.json'
-G = Github("533ada923230d8a71bfc07c436a78b9f44fed216")
+GITHUB_ACCESS_TOKEN = os.environ['GIT_ACCESS_TOKEN']
+GIT_STATUS_PATH = os.environ['GIT_STATUS_PATH']
+GIT_ZIP_PATH = os.environ['GIT_ZIP_PATH']
+
+G = Github(GITHUB_ACCESS_TOKEN)
 
 
 def updateGitData(fileName, content, gitId):
@@ -24,7 +27,7 @@ def updateGitData(fileName, content, gitId):
     if repo:
         oldFile = repo.get_contents(fileName)
         fileSHA = oldFile.sha
-        repo.update_file(path=fileName, message=msg,
+        repo.update_file(path=fileName.replace('/app', ''), message=msg,
                          content=content, sha=fileSHA, branch='master')
         print('updated: ', fileName)
 
@@ -72,14 +75,17 @@ def main():
             this = forJson[each]
             this['name'] = each
             this['full_name'] = this.pop('name1')
-            if this['color'] == 'red':
+            if this['color'] == 'grey':
+                this['full_level'] = 'Επίπεδο Γ. Συναγερμού'
+                this['level'] = 3
+            elif this['color'] == 'red':
                 this['full_level'] = 'Επίπεδο Β. Αυξημένου Κινδύνου'
                 this['level'] = 2
             else:
                 this['full_level'] = 'Επίπεδο Α. Επιτήρησης'
                 this['level'] = 1
         forJsonString = json.dumps(forJson)
-        updateGitData(STATUSPATH, forJsonString, G)
+        updateGitData(GIT_STATUS_PATH, forJsonString, G)
 
         zip = {}
         for each in forJson:
@@ -88,7 +94,7 @@ def main():
             for every in codes:
                 zip[every] = each
         zipString = json.dumps(zip)
-        updateGitData(ZIPPATH, zipString, G)
+        updateGitData(GIT_ZIP_PATH, zipString, G)
 
 
 def zipToCounty(zip, zipDict):

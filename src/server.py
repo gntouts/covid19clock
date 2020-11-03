@@ -1,6 +1,13 @@
 from fastapi import FastAPI
 import json
 from fastapi.middleware.cors import CORSMiddleware
+import os
+
+thispath = os.getcwd().split('src')[0]
+thispath += 'data/'
+
+HEROKU_STATUS_PATH = os.environ['HEROKU_STATUS_PATH']
+HEROKU_ZIP_PATH = os.environ['HEROKU_ZIP_PATH']
 
 
 def loadJSON(myPath):
@@ -28,9 +35,6 @@ origins = [
     "*",
 ]
 
-STATUSPATH = 'data.json'
-ZIPPATH = 'zip.json'
-
 app = FastAPI()
 
 app.add_middleware(
@@ -49,31 +53,30 @@ async def root():
 
 @app.get("/v1/counties")
 async def list_counties():
-    myData = loadJSON(STATUSPATH)
-    return list(myData.keys())
+    myData = loadJSON(HEROKU_STATUS_PATH)
+    return {'counties': list(myData.keys())}
 
 
 @app.get("/v1/counties/{county_name}")
 async def read_county(county_name):
-    myData = loadJSON(STATUSPATH)
+    myData = loadJSON(HEROKU_STATUS_PATH)
     return myData[county_name]
 
 
 @app.get("/v1/zip")
 async def list_zipcodes():
-    myData = loadJSON(ZIPPATH)
-    return list(myData.keys())
+    myData = loadJSON(HEROKU_ZIP_PATH)
+    return {'zip_codes': list(myData.keys())}
 
 
 @app.get("/v1/zip/{zip_code}")
 async def read_zipcode(zip_code):
-    zipData = loadJSON(ZIPPATH)
-    myData = loadJSON(STATUSPATH)
+    zipData = loadJSON(HEROKU_ZIP_PATH)
+    myData = loadJSON(HEROKU_STATUS_PATH)
     res = zipToCounty(zip_code, zipData)
     res = myData[res]
-    temp = {'name': res['name'],
+    return {'name': res['name'],
             'full_name': res['full_name'],
             'level': res['level'],
             'full_level': res['full_level'],
             'color': res['color']}
-    return temp
