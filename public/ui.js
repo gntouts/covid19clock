@@ -1,8 +1,10 @@
 function addToDatalist(item) {
-    let list = document.getElementById('desk-counties');
+    let deskList = document.getElementById('desk-counties');
+    let mobList = document.getElementById('mob-counties');
     let itemNode = document.createElement('option');
     itemNode.value = item;
-    list.appendChild(itemNode);
+    deskList.appendChild(itemNode);
+    mobList.appendChild(itemNode);
 }
 
 var touchDevice = ('ontouchstart' in document.documentElement);
