@@ -75,7 +75,10 @@ def main():
             this = forJson[each]
             this['name'] = each
             this['full_name'] = this.pop('name1')
-            if this['color'] == 'red':
+            if this['color'] == 'grey':
+                this['full_level'] = 'Επίπεδο Γ. Συναγερμού'
+                this['level'] = 3
+            elif this['color'] == 'red':
                 this['full_level'] = 'Επίπεδο Β. Αυξημένου Κινδύνου'
                 this['level'] = 2
             else:
