@@ -62,7 +62,13 @@
         function updateScreen(full_name, full_level, color) {
             document.getElementById('perioxi').innerText = full_name;
             document.getElementById('status').innerText = full_level;
-            if (color == 'red') {
+            if (color == 'gray') {
+                let color = '#605f69';
+                document.getElementById('perioxi').style.color = 'white';
+                document.getElementById('status').style.color = 'white';
+                document.getElementsByTagName('body')[0].style.backgroundColor = color;
+            }
+            else if (color == 'red') {
                 let color = '#AC242A';
                 document.getElementById('perioxi').style.color = 'white';
                 document.getElementById('status').style.color = 'white';
